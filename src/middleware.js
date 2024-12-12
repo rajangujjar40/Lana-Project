@@ -8,15 +8,5 @@ export default function middleware(req) {
 }
 
 export const config = {
-  matcher: [
-    // "/dashboard",
-    "/customize-coupan",
-    // "/kyc",
-    "/transaction-history",
-    "/profile",
-    "/redeem",
-    "/buy-crypto",
-    "/notification",
-    "/redeem-history",
-  ],
+  matcher: [],
 };
